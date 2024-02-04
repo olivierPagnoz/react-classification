@@ -1,0 +1,66 @@
+.tableaugeneral {
+        width: 100%;
+        height: auto;
+        margin: auto;
+
+        #atome-liste {
+                width: 1100px;  
+                height: 680px;
+                margin: auto;
+                padding-left: 20px;
+                padding-top: 20px;
+                background-color: #F5F9F9;
+                
+        
+        }
+
+        .btnNoirBlanc {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 950px;
+            font-size: 20px;
+            cursor: pointer;
+            border-bottom: solid 4px gray;
+        }
+
+        .btnCouleur {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 1150px;
+            font-size: 20px;
+            cursor: pointer;
+            border-bottom: solid 4px red;
+        }
+       
+        .containerdetail {
+            width: 150px;
+            height: 140px;
+            position: absolute;
+            background-color: #F5F9F9;
+            margin-left: 200px;
+            padding-left: 10px;
+           
+    
+            #masseatomique {
+                position: absolute;
+                margin-left: 70px;
+                margin-top: 5px;
+                font-size: 18px;
+            }
+            #numeroatomique {
+                font-size: 28px;
+            }
+            #symbole {
+                font-size: 50px;
+            }
+            #lenom {
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            #laserie {
+                font-size: 12px;
+            }
+            
+        }
+        
+    }

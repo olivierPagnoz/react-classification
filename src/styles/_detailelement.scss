@@ -1,0 +1,29 @@
+.detailelement {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 200px;
+    padding-left: 10px; 
+    font-family: 'Oswald', sans-serif;
+
+    #masseatomique {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    #numeroatomique {
+        font-size: 28px;
+    }
+    #symbole {
+        font-size: 50px;
+    }
+    #lenom {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    #laserie {
+        font-size: 12px;
+    }
+    
+}

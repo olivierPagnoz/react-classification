@@ -1,7 +1,7 @@
 export default function Home () {
     return(
         <div>
-        <h1>ALORS fff</h1>
+        <h1>CLASSIFICATION</h1>
         </div>
     );
 }

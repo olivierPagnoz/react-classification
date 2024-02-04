@@ -1,0 +1,32 @@
+.atomegenerale {
+    width: 60px;
+    height: 66px;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    background-color: '';
+    border: solid 1px black;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    h2 {
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 14px;
+    }
+
+    h3 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+   
+    p {
+        position: absolute;
+      text-transform: uppercase;
+      font-size: 9px;
+      margin-top: 48px;
+      margin-left: 2px; 
+    }
+    
+}

@@ -1,0 +1,22 @@
+.listefamille {
+    width: 140px;
+    height: 320px;
+    position: absolute;
+    padding-top: 2px;
+    font-size: 16px;
+    margin-left: 18px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: '';
+   
+    ul {
+        width: 130px;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 6px;
+        cursor: pointer;    
+        
+    }
+}
