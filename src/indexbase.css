@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#horloge { 
+	border-radius: 5%;
+	transition: background-color 2s ease-in-out;
+  
+	}	
+	
+	.clock {
+  border-radius: 50%;
+    height: 250px;
+  position:relative;
+  width: 250px;
+  background-color: blue;
+}
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.hours {
+  background: #FFF;
+  height: 65px;
+  left: 122px;
+  position: absolute;
+  top: 60px;
+  transform-origin: 50% 100%;
+  width: 6px;
+}
+.minutes {
+  background: #FFF;
+  height: 90px;
+  left: 123px;
+  position: absolute;
+  top: 35px;
+  transform-origin: 50% 100%;
+  width: 4px;
+}
+.seconds {
+  background: #FFF;
+  height: 90px;
+  left: 124px;
+  position: absolute;
+  top: 35px;
+  transform-origin: 50% 100%;
+  width: 2px;
+  z-index: 8;
+  opacity: 50%;
+}
+
+#rond_noir {
+  background: #FFF;
+  border-radius: 50%;
+  margin-left: 119px;
+  margin-top: -133px;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+ 
+}
+#rond_rouge {
+  background: orangered;
+  border-radius: 50%;
+  margin-left: 116px;
+  margin-top: -136px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+ 
+}
