@@ -1,0 +1,29 @@
+.presentationfamille {
+    width: 520px;
+    height: 180px;
+    position: absolute;
+    margin-left: 150px;
+    padding-left: 10px; 
+    font-family: 'Oswald', sans-serif;
+
+    .titrepresfamille{
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    
+    .listeatomecolonne{
+        width: 520px;
+        column-count: 4;
+        height: 140px;
+        margin-top: 10px;
+        font-size: 19px;
+
+        li {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        }
+    }
+    
+}

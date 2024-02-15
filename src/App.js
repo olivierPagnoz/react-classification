@@ -1,9 +1,9 @@
-import Home from './pages/Home';
+import Classification from './pages/Classification';
 
 function App() {
   return (
 
-    <Home />
+    <Classification />
   );
 }
 

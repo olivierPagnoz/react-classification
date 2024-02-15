@@ -9,52 +9,10 @@
             width: 1100px;
             margin: auto;
             font-size: 36px;
-            font-family: 'Oswald', sans-serif;
             text-align: left;
             background-color: white;
             
-        }
-        .ongletserie {
-            width: 300px;
-            height:200px;
-            position: absolute;
-            padding-top: 1px;
-            font-family: 'Oswald', sans-serif;
-            font-size: 20px;
-            margin-left: 410px;
-            text-transform: uppercase;
-            font-weight: bold;
-           
-            ul {
-                list-style-type: none;
-                padding: 0px;
-                margin: 0px;
-                padding-left: 4px;
-                position: absolute;
-                li {
-                    margin-top: 6px;
-                    padding-left: 4px;
-                    padding-right: 4px;
-                }
-            }
-            
-        }
-        .blocchoixcouleur {
-            width: 1080px;
-            height: 30px;
-            margin: auto;
-            ul {
-                display: flex;
-                justify-content: space-around;
-                margin: auto;
-                
-            }
-        }
-        .alcalin, .alcalino, .actinide, .gaznoble, .nonmetal, .lanthanide, .metalloide, .metalpauvre, .transition, .inconnu {
-            background-color: white;
-            height: 64px;
-
-        }
+        }     
     
         
     }
